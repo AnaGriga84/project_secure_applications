@@ -1,3 +1,4 @@
+
 <?php
     function Filter($value)
     {
@@ -6,6 +7,7 @@
     
         $cleanedString = str_replace($specialChars, $replacedChars, $value);
         return $cleanedString;
+        echo "";
         echo "";
     }
     //validate function
