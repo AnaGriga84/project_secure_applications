@@ -6,8 +6,9 @@
     
         $cleanedString = str_replace($specialChars, $replacedChars, $value);
         return $cleanedString;
+        echo "";
     }
-
+    //validate function
     function validatePassword($password, $confirm) 
     {
         // minimum 8 character
