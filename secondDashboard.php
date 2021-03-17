@@ -1,5 +1,5 @@
 <?php
-    require_once("pageLogic/dashboard.php");
+    require_once("pageLogic/secondDashboard.php");
 ?>
 
 <!--Inspired by: https://www.backlinkn.com/2020/11/landing-page-tutorial-make-webpage.html -->
@@ -12,11 +12,11 @@
 <div class="smooth">
   <header>
     <h3>By Ana Griga</h3>
-    <h4>First page</h4>
+    <h4>Second page</h4>
     <ul>
       <li><a href="changePassword.php">Change Password</a></li>
       <li><a href="logout.php">Logout</a></li>
-      <li><a href="secondDashboard.php">Second Page</a></li>
+      <li><a href="dashboard.php">First Page</a></li>
       <li><a href="logs.php">Logs Table for Admin</a></li>
     </ul>
   </header>
@@ -38,7 +38,7 @@
         </p>
       </div>
       <div class="blur">
-        <form><img src="https://www.loginradius.com/blog/wp-content/uploads/sites/4/2020/06/Authentication-vs.-Authorization-feature-image.png"/>
+        <form><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6rNeDvr0bO0Daf65jGDV3aV3h_jl8bMaEQQ&usqp=CAU"/>
         </form>
       </div>
     </div>

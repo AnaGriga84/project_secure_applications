@@ -2,13 +2,11 @@
 <?php
     function Filter($value)
     {
-        $specialChars = Array("&", "<", ">", "(", ")","{", "}", "[", "]", '"', "'", ";", "\\");
-        $replacedChars = Array("&amp", "&lt", "&gt", "&#40", "&#41", "&#123", "&#125", "&#91", "&#93", "&#34", "&#39", "&#59", "&#92");
+        $specialChars = Array("&", "<", ">", "(", ")","{", "}", "[", "]", '"', "'", "\\");
+        $replacedChars = Array("&amp;", "&lt;", "&gt;", "&#40;", "&#41;", "&#123;", "&#125;", "&#91;", "&#93;", "&#34;", "&#39;", "&#92;");
     
         $cleanedString = str_replace($specialChars, $replacedChars, $value);
         return $cleanedString;
-        echo "";
-        echo "";
     }
     //validate function
     function validatePassword($password, $confirm) 

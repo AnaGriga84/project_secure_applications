@@ -49,7 +49,7 @@
             die($errorMessage);
         }
 
-        $sql = "SELECT * FROM users WHERE username = ?";
+        $sql = "SELECT * FROM users WHERE username = ?"; 
         $stmt = $conn->prepare($sql);
         $stmt->bind_param("s",$username);
         if(!$stmt->execute()) 
